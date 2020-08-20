@@ -1,0 +1,26 @@
+pytest==5.1.2
+Flask==1.1.1
+pubnub==4.1.6
+requests==2.22.0
+cryptography==2.8
+Flask-Cors==3.0.8
+
+
+pip install -r requirements.txt ### Used to install all packages from given text file
+
+To TRY:
+
+1)Sync without root node 
+-broadcast own address on startup
+- POST req to receive blockchain from other nodes
+
+2) Catching up a blockchain thats fallen behind
+
+3) API endpoints that read more info
+- Others balance
+
+
+4) Transaction pool validating transactions
+5) Application for non-miners
+6) Design and fronend-functionality
+-Login page
