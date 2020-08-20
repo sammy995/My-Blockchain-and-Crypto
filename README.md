@@ -38,7 +38,6 @@ py -m backend.app
 Make sure to activate the virtual environment.
 path only for local
 ```
-cd C:\python-blockchain
 export PEER=True && py -m backend.app
 
 ```
@@ -52,7 +51,6 @@ npm run start
 **Seed backend with data**
 Make sure to activate the virtual environment.
 ```
-cd C:\python-blockchain
 export SEED_DATA=True && py -m backend.app
 ```
 
